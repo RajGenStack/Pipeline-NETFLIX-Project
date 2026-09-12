@@ -9,6 +9,18 @@ A Maven WAR web application (a Netflix-style login page) and a Jenkins pipeline,
 ![Tomcat](https://img.shields.io/badge/Tomcat-F8DC75?style=flat-square&logo=apachetomcat&logoColor=black)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
+<p>
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/RajGenStack/Pipeline-NETFLIX-Project?style=flat-square&labelColor=0d1117&color=ff6b35">
+  <img alt="Top language" src="https://img.shields.io/github/languages/top/RajGenStack/Pipeline-NETFLIX-Project?style=flat-square&labelColor=0d1117&color=8b949e">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/RajGenStack/Pipeline-NETFLIX-Project?style=flat-square&labelColor=0d1117&color=8b949e">
+</p>
+
+## What this demonstrates
+
+- Building a pipeline incrementally, one stage at a time, so each step is proven before the next is added
+- A Maven build followed by deployment of the artifact to Apache Tomcat
+- Spotting risk in convenience: the README explains why the course sudo rule is dangerous and what to do instead
+
 ## Pipeline
 
 The `Script` file contains the pipeline at three levels of completeness, so it can be built up and verified one stage at a time:
